@@ -39,7 +39,7 @@ export function configureServer() {
   const resolvers = {
     Query: {
       hello: () => "world",
-      stepCount: () => 128,
+      stepCount: () => 8,
       runTime: () => 60,
       walkTime: () => 5,
       activeTimeDetails: () => (
